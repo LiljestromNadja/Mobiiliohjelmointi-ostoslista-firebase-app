@@ -39,7 +39,7 @@ export default function App() {
 
 
   const saveItem = () => {
-    if (product == undefined && amount == undefined) {
+    if (product == undefined || amount == undefined) {
       Alert.alert("Please fill both fields");
 
     } else {      
